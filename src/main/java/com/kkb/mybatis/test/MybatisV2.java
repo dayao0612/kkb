@@ -173,6 +173,7 @@ public class MybatisV2 {
                     continue;
                 }
                 if ("".equals(text.trim())){
+                    System.out.println();
                     continue;
                 }
                 // 先将sql文本封装到TextSqlNode中
